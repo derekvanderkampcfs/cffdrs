@@ -32,7 +32,7 @@
   #
   #############################################################################
   
-  load("data/shortwave_model.rda")
+  data(final_shortwave_model)
   
   #Reference latitude for DMC day length adjustment
   #46N: Canadian standard, latitude >= 30N   (Van Wagner 1987)
